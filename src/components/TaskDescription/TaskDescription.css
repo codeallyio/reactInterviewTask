@@ -1,5 +1,5 @@
-.TaskDescription{
-    background-color: lightblue;
-    font-family: sans-serif;
-    text-align: left;
+.TaskDescription {
+  padding: 20px;
+  font-family: sans-serif;
+  text-align: left;
 }
