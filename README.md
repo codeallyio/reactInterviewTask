@@ -17,3 +17,32 @@ Please use method getReactRepositories fetch list of repositories, once resolved
     {name: 'react', stars: 31705, forks: 6581, url: 'http://…'},
     {name: 'react', stars: 5671, forks: 342, url: 'http://…'}
 ]
+
+Bonus task - create a functionality(Can be HOC/Hook/Render Prop etc)
+that will provide a "More/Less" button that will expanse or collapse the
+list, for example:
+
+// Expanded Mode
++-----------------------------------------------+
+| <name> | 🌟 <numberOfStars> |🍴 <numberOfForks>|        
++-----------------------------------------------+
+| react      |     🌟 69012      |   🍴 12581    |
++-----------------------------------------------+
+| reselect    |     🌟 7291       |   🍴 214      |
++-----------------------------------------------+
+    | recompose  |     🌟 5671       |   🍴 342      |
++-----------------------------------------------+
+| See Less Button |
++-----------------+
+
+// Collapsed Mode
++-----------------------------------------------+
+| <name> | 🌟 <numberOfStars> |🍴 <numberOfForks>|        
++-----------------------------------------------+
+| react      |     🌟 69012      |   🍴 12581    |
++-----------------------------------------------+
+| reselect    |     🌟 7291       |   🍴 214      |
++-----------------------------------------------+
+| See More Button |
++-----------------+ | redux      |     🌟 31705      |   🍴 6581     |
++-----------------------------------------------+
