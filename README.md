@@ -1,7 +1,7 @@
 ## Task Description
 
-Coding task
-Your task is to write a simple React Application that renders list of repositories In the following manner:
+## Coding task
+1. Your task is to write a simple React Application that renders list of repositories In the following manner:
 
 • <name> - 🌟 <stars> - 🍴 <forks>
 • react - 🌟 69012 - 🍴 12581
@@ -18,7 +18,8 @@ Please use method getReactRepositories fetch list of repositories, once resolved
     {name: 'react', stars: 5671, forks: 342, url: 'http://…'}
 ]
 
-Bonus task - create a functionality(Can be HOC/Hook/Render Prop etc)
+### Bonus tasks (optional)
+2. Create a functionality(Can be HOC/Hook/Render Prop etc)
 that will provide a "More/Less" button that will expanse or collapse the
 list, for example:
 
@@ -46,3 +47,5 @@ list, for example:
 | See More Button |
 +-----------------+ | redux      |     🌟 31705      |   🍴 6581     |
 +-----------------------------------------------+
+
+3. Write unit tests for your solution.
