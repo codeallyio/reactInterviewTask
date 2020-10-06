@@ -1,6 +1,4 @@
 ## Task Description
-
-## Coding task
 1. Your task is to write a simple React Application that renders list of repositories In the following manner:
 
 • <name> - 🌟 <stars> - 🍴 <forks>
