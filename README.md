@@ -1,3 +1,6 @@
+# Runnin the app
+The app will start automatically at port 3000. To see the preview use Preview button in the header.
+
 ## Task Description
 1. Your task is to write a simple React Application that renders list of repositories In the following manner:
 
